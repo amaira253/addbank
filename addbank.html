@@ -1,0 +1,144 @@
+<html>
+<head>
+	<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+<title>ADD BANK</title>
+<style type="text/css">
+h3{margin-left: 35px;
+    padding-top: 10px;
+}
+.border{margin-top: 50px;}
+ 
+ .row{margin-top: 50px;
+       padding:20px; 
+ } 
+ 
+#card2{
+        margin-top: 80px;
+}
+.btn-primary{margin-left: 8px;
+             margin-top: 10px;
+}
+.btn-success{margin-left: 8px;
+             margin-top: 10px;
+            }
+.btn-secondary{ margin-left: 8px;
+                margin-top: 10px;
+}
+.btn-danger{margin-left: 8px;
+                margin-top: 10px;
+}
+</style>
+</head>
+<body>
+<div class="container border bordered rounded ">
+    
+     <div><h3 class="text-primary">ADD BANK</h3>   </div>
+     <div class="row">
+      <div class="col-md-6 col-sm-6 col-lg-6">
+  <div class="col-lg-8" id="card1">
+  <div class="card shadow p-3 mb-5 bg-white rounded">
+      <div class="card-body">
+      <label>Bank Name</label> 
+<div><input type="text" ></div>
+      <label>Bank Branch Name</label> 
+<div><input type="text" ></div>
+      <label>IFSC code</label> 
+<div><input type="number" ></div>
+      <label>Account Number </label> 
+<div><input type="number" ></div>
+    <div>                    
+  <div class="dropdown">
+    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Account Type
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">Saving</a></li>
+      <li><a href="#">Current</a></li>
+      <li><a href="#">FD</a></li>
+    </ul>
+  </div>
+</div><br>
+	  <div><input type="text" ></div>
+      </div>
+
+  </div>
+  
+</div>
+
+<div class="col-sm-8">
+  <div class="card shadow p-3 mb-5 bg-white rounded" id="card2">
+   <div class="card-body">
+       <button type="submit" class="btn btn-primary " >SAVE</button>   
+        <button type="submit" class="btn btn-success ">UPDATE</button>
+         <button type="submit" class="btn btn-secondary">DELETE</button>
+		 <button type="button" class="btn btn-danger">UNDO</button>
+  </div>
+  </div>
+</div>
+</div>
+<div class="col-md-6 col-sm-6">
+<table class="table table-hover table-bordered ">
+   <thead>
+      <tr>
+        <th>Bank Name</th>
+        <th>Account Number</th>
+		<th>Branch</th>
+		<th>IFSC Code</th>
+		<th>Type</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>HDFC</td>
+        <td>3098764576324543</td>
+		<td>Jagadhri</td>
+		<td>HDFC000124</td>
+		<td>Saving</td>
+      </tr>
+      <tr>
+        <td>IDBI</td>
+        <td>720764576324589</td>
+		<td>Yamunanagar</td>
+		<td>IDBI000436</td>
+		<td>Current</td>
+      </tr>
+      <tr>
+        <td>PNB</td>
+        <td>1038764576329028</td>
+		<td>Saharanpur</td>
+		<td>PNB000105</td>
+		<td>Saving</td>
+      </tr>
+      <tr>
+        <td>BOI</td>
+        <td>5098764576329299</td>
+		<td>Ambala</td>
+		<td>BOI000539</td>
+		<td>Saving</td>
+      </tr>
+      <tr>
+        <td>SBI</td>
+        <td>699876457632911</td>
+		<td>Patiala</td>
+		<td>SBI0006754</td>
+		<td>Saving</td>
+      </tr>
+      <tr>
+        <td>UCO</td>
+        <td>8908764576324888</td>
+		<td>Allahabad</td>
+		<td>UCO000894</td>
+		<td>Current</td>
+      </tr>
+
+  </tbody>
+   </table>
+    </div>
+  </div>  
+</body>
+</html>
